@@ -330,4 +330,4 @@ ZeroToggle is a proof-of-concept demonstration prototype. Significant developmen
 
 ## 📄 License
 
-This project is licensed under the terms of the [MIT License](https://www.google.com/search?q=LICENSE).
+This project is licensed under the terms of the [MIT License](LICENSE).
