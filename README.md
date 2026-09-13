@@ -22,7 +22,7 @@ The resulting feature flags can then be controlled in real time through a Stream
 
 ### The Core Idea
 
-Clean Source Code
+```Clean Source Code
        │
        ▼
 ┌──────────────────────┐
@@ -45,7 +45,7 @@ Clean Source Code
       ▼       ▼
  Dashboard   Consumer App
   :8501        :8502
-
+```
 # 💡 Problem:-
 Adding feature flags to an existing application typically requires developers to manually:
 
@@ -401,7 +401,7 @@ Improved dashboard UX for managing large numbers of feature flags.
 ## 🚀 Long-Term Vision:-
 The long-term vision for ZeroToggle is to evolve from a barebones demonstration prototype into a reliable AI-assisted code transformation platform.
 The goal is to allow developers to provide an existing application and have an AI agent safely:
-
+```
 Analyze
    ↓
 Understand
@@ -419,7 +419,7 @@ Review
 Deploy
    ↓
 Manage Feature Flags
-
+```
 Achieving this vision will require substantial improvements across AI model intelligence, code transformation accuracy, semantic validation, automated testing, security, persistence, observability, and production architecture.
 
 # 📄 License:-
