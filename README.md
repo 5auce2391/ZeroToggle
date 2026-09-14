@@ -316,15 +316,19 @@ ZeroToggle is a proof-of-concept demonstration prototype. Significant developmen
 * The AI model's code reasoning requires further tuning; AI-generated modifications may occasionally be sub-optimal or semantically incorrect.
 * Syntax validation alone does not guarantee behavioral correctness.
 * Persistence, authentication, authorization, observability, and concurrency controls are intentionally lightweight.
+* Lack of multiple language support in current iteration
+
 
 ---
 
 ## 🗺️ Future Improvements
 
+* **Multiple language support:**Support for Javascript andother web based languages.
 * **AI & Refactoring Intelligence:** Enhance multi-file codebases handling, semantic validation, automated test generation, and complex control-flow handling.
 * **Safety & Reliability:** Stronger sandboxing, static analysis, automated regression testing, and automatic rollbacks.
 * **Platform & Architecture:** Database-backed feature flags, distributed synchronization, RBAC, and percentage-based progressive rollouts.
 * **Developer Experience:** CI/CD pipeline integration, IDE extensions, and visual code-diff previews.
+
 
 ---
 
