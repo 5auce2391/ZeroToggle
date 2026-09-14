@@ -1,4 +1,4 @@
-# ⚡ ZeroToggle
+#  ZeroToggle
 
 ### Autonomous AI Refactoring & Real-Time Feature Flag Engine
 
@@ -8,7 +8,7 @@ ZeroToggle is an autonomous AI-powered refactoring and real-time feature flag en
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Feature flags are powerful, but introducing them into an existing application can quickly lead to boilerplate, nested conditionals, and maintenance overhead. ZeroToggle takes a different approach by starting with a clean, immutable source file, using an AI agent to intelligently identify and refactor feature-worthy code paths, validating the generated Python syntax in a sandboxed environment, and producing a live feature-flagged version of the application.
 
@@ -45,7 +45,7 @@ Clean Source Code
 
 ---
 
-## 💡 The Problem
+##  The Problem
 
 Adding feature flags to an existing application typically requires developers to manually:
 
@@ -59,7 +59,7 @@ For larger codebases, this process becomes repetitive, time-consuming, and prone
 
 ---
 
-## ✨ The Solution
+##  The Solution
 
 ZeroToggle automates this workflow using an AI agent. The system performs the following sequence:
 
@@ -73,7 +73,7 @@ ZeroToggle automates this workflow using an AI agent. The system performs the fo
 
 ---
 
-## 🏗️ Architecture & Component Flow
+##  Architecture & Component Flow
 
 ```text
                  ┌─────────────────┐
@@ -132,7 +132,7 @@ ZeroToggle automates this workflow using an AI agent. The system performs the fo
 
 ---
 
-## 🤖 AI Refactoring Pipeline
+##  AI Refactoring Pipeline
 
 The autonomous refactoring process is handled by `main.py`, equipped with a syntax-validation capability to ensure generated code is structurally valid before use.
 
@@ -158,7 +158,7 @@ The autonomous refactoring process is handled by `main.py`, equipped with a synt
 
 ---
 
-## 🎛️ Real-Time Feature Flags
+##  Real-Time Feature Flags
 
 Feature-flag state is maintained through `flags.json`. The lightweight `flags_helper.py` module acts as the bridge between the running application and the current flag state:
 
@@ -177,7 +177,7 @@ This allows the consumer application to react to changes in feature-flag state w
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -222,7 +222,7 @@ $env:OPENROUTER_API_KEY="your-openrouter-api-key-here"
 
 ---
 
-## ▶️ Running ZeroToggle
+##  Running ZeroToggle
 
 ZeroToggle uses two concurrent Streamlit processes:
 
@@ -248,7 +248,7 @@ Keep both applications open side-by-side to test real-time feature-flag changes.
 
 ---
 
-## 🔄 Typical Usage
+##  Typical Usage
 
 1. **Start with Clean Code:** Your original logic lives in `app_code.py` with no feature flags or boilerplate.
 2. **Run the AI Refactor:** From the dashboard (`:8501`), trigger the autonomous refactor. The Strands Agent analyzes the source and generates the implementation.
@@ -258,7 +258,7 @@ Keep both applications open side-by-side to test real-time feature-flag changes.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 zerotoggle/
@@ -275,7 +275,7 @@ zerotoggle/
 
 ---
 
-## 🧩 Key Technologies
+##  Key Technologies
 
 | Technology | Role |
 | --- | --- |
@@ -287,7 +287,7 @@ zerotoggle/
 
 ---
 
-## 🧹 Port Cleanup
+##  Port Cleanup
 
 If ports 8501 or 8502 remain occupied after previous sessions:
 
@@ -309,7 +309,7 @@ Stop-Process -Name python -Force -ErrorAction SilentlyContinue
 
 ---
 
-## ⚠️ Prototype Limitations
+##  Prototype Limitations
 
 ZeroToggle is a proof-of-concept demonstration prototype. Significant development is required for production readiness:
 
@@ -321,17 +321,17 @@ ZeroToggle is a proof-of-concept demonstration prototype. Significant developmen
 
 ---
 
-## 🗺️ Future Improvements
+##  Future Improvements
 
-* **Multiple language support:**Support for Javascript andother web based languages.
+* **Multiple language support:** Support for Javascript andother web based languages.
 * **AI & Refactoring Intelligence:** Enhance multi-file codebases handling, semantic validation, automated test generation, and complex control-flow handling.
 * **Safety & Reliability:** Stronger sandboxing, static analysis, automated regression testing, and automatic rollbacks.
 * **Platform & Architecture:** Database-backed feature flags, distributed synchronization, RBAC, and percentage-based progressive rollouts.
-* **Developer Experience:** CI/CD pipeline integration, IDE extensions, and visual code-diff previews.
+* **Developer Experience:** Direct automated implementation on repository update pushes, CI/CD pipeline integration, IDE extensions, and visual code-diff previews.
 
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
