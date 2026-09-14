@@ -323,7 +323,7 @@ ZeroToggle is a proof-of-concept demonstration prototype. Significant developmen
 
 ##  Future Improvements
 
-* **Multiple language support:** Support for Javascript andother web based languages.
+* **Multiple language support:** Support for Javascript and other web based languages.
 * **AI & Refactoring Intelligence:** Enhance multi-file codebases handling, semantic validation, automated test generation, and complex control-flow handling.
 * **Safety & Reliability:** Stronger sandboxing, static analysis, automated regression testing, and automatic rollbacks.
 * **Platform & Architecture:** Database-backed feature flags, distributed synchronization, RBAC, and percentage-based progressive rollouts.
